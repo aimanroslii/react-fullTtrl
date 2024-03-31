@@ -1,7 +1,8 @@
-import Button from './Button/Button.jsx'
+// import Button from './Button/Button.jsx'
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
+import Button from './Button.jsx'
 import './App.css'
 
 //HOW TO STYLE REACT COMPONENTS WITH CSS
@@ -17,27 +18,32 @@ import './App.css'
 //                        in your application based on certain conditions
 //                        (show, hide, or change components)
 
+//click event = An interacting when a user clicks on a specific element.
+//              We can respond to clicks by passing
+//              a callback to the onClick event handler.
+
 function App() {
-  const fruits = [{id:1,name: "apple", calories: 95}, 
-                  {id:2,name: "orange", calories: 45}, 
-                  {id:3,name: "banana", calories: 105}, 
-                  {id:4,name: "coconut", calories: 159}, 
-                  {id:5,name: "pineapple", calories: 37}];
+  // const fruits = [{id:1,name: "apple", calories: 95}, 
+  //                 {id:2,name: "orange", calories: 45}, 
+  //                 {id:3,name: "banana", calories: 105}, 
+  //                 {id:4,name: "coconut", calories: 159}, 
+  //                 {id:5,name: "pineapple", calories: 37}];
 
-  // const fruits = [];
+  // // const fruits = [];
 
-  const vegetables = [{id:6,name: "potatoes", calories: 110}, 
-                      {id:7,name: "celery", calories: 15}, 
-                      {id:8,name: "carrots", calories: 25}, 
-                      {id:9,name: "corn", calories: 63}, 
-                      {id:10,name: "broccoli", calories: 37}];
+  // const vegetables = [{id:6,name: "potatoes", calories: 110}, 
+  //                     {id:7,name: "celery", calories: 15}, 
+  //                     {id:8,name: "carrots", calories: 25}, 
+  //                     {id:9,name: "corn", calories: 63}, 
+  //                     {id:10,name: "broccoli", calories: 37}];
 
 
   return (
     <>
-      {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
+      <Button/>
+      {/* {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
       {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
-      {/* <UserGreeting isLoggedIn = {true} username= "John Wick"/>
+      <UserGreeting isLoggedIn = {true} username= "John Wick"/>
       <UserGreeting isLoggedIn = {true} />
       <Student name="Spongebob" age = {30} isStudent={true}/>
       <Student name="Patrick" age={42} isStudent={false}/>
