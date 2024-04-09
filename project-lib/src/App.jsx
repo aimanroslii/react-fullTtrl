@@ -7,6 +7,7 @@ import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
 import './App.css'
 import SecComponent from './SecComponent.jsx'
+import ColorPicker from './ColorPicker.jsx'
 
 //HOW TO STYLE REACT COMPONENTS WITH CSS
 //1.EXTERNAL
@@ -62,8 +63,9 @@ function App() {
 
   return (
     <>
-      <SecComponent/>
-      {/* <Counter/>
+      <ColorPicker/>
+      {/* <SecComponent/>
+      <Counter/>
       <MyComponent/>
       <Button/>
       {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
