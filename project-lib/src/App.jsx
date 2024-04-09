@@ -3,6 +3,8 @@ import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import Button from './Button.jsx'
+import MyComponent from './MyComponent.jsx'
+import Counter from './Counter.jsx'
 import './App.css'
 
 //HOW TO STYLE REACT COMPONENTS WITH CSS
@@ -22,6 +24,13 @@ import './App.css'
 //              We can respond to clicks by passing
 //              a callback to the onClick event handler.
 
+//React hook = Special function that allows functional components
+//             to use React features without writing class components (React v16.8)
+//             (useState, useEffect, useContext, useReducer, useCallback, and more ...)
+
+//useState() = A react that allows the creation of a stateful variable AND a setter function
+//             to update its value in the Virtual DOM. [name, setName]
+
 function App() {
   // const fruits = [{id:1,name: "apple", calories: 95}, 
   //                 {id:2,name: "orange", calories: 45}, 
@@ -37,11 +46,20 @@ function App() {
   //                     {id:9,name: "corn", calories: 63}, 
   //                     {id:10,name: "broccoli", calories: 37}];
 
+  //React hook = Special function that allows functional components
+  //             to use React features without writing class components (React v16.8)
+  //             (useState, useEffect, useContext, useReducer, useCallback, and more...)
+
+  //useState() = A React hook that allows the creation of a stateful variable
+  //             AND a setter function to update its value in the Virtual DOM.
+  //             [name, setName]
 
   return (
     <>
+      <Counter/>
+      {/* <MyComponent/>
       <Button/>
-      {/* {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
+      {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
       {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
       <UserGreeting isLoggedIn = {true} username= "John Wick"/>
       <UserGreeting isLoggedIn = {true} />
