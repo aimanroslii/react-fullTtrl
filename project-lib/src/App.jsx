@@ -6,6 +6,7 @@ import Button from './Button.jsx'
 import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
 import './App.css'
+import SecComponent from './SecComponent.jsx'
 
 //HOW TO STYLE REACT COMPONENTS WITH CSS
 //1.EXTERNAL
@@ -54,10 +55,16 @@ function App() {
   //             AND a setter function to update its value in the Virtual DOM.
   //             [name, setName]
 
+  //onChange = event handler used primarily with form elements
+  //           ex. <input>, <textarea>, <select>, <radio>
+  //           Triggers a function every time the value of the input changes
+
+
   return (
     <>
-      <Counter/>
-      {/* <MyComponent/>
+      <SecComponent/>
+      {/* <Counter/>
+      <MyComponent/>
       <Button/>
       {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
       {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
