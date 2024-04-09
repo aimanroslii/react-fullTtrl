@@ -9,6 +9,7 @@ import './App.css'
 import SecComponent from './SecComponent.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import UpdaterComponent from './UpdaterComponent.jsx'
+import ObjectComponent from './ObjectComponent.jsx'
 
 //HOW TO STYLE REACT COMPONENTS WITH CSS
 //1.EXTERNAL
@@ -64,8 +65,9 @@ function App() {
 
   return (
     <>
-      <UpdaterComponent/>
-      {/* <ColorPicker/>
+      <ObjectComponent/>
+      {/* <UpdaterComponent/>
+      <ColorPicker/>
       <SecComponent/>
       <Counter/>
       <MyComponent/>
