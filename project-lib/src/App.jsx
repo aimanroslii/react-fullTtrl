@@ -11,6 +11,7 @@ import ColorPicker from './ColorPicker.jsx'
 import UpdaterComponent from './UpdaterComponent.jsx'
 import ObjectComponent from './ObjectComponent.jsx'
 import UpArrayComponent from './UpArrayComponent.jsx'
+import ArrayObjectComponent from './ArrayObjectComponent.jsx'
 
 //HOW TO STYLE REACT COMPONENTS WITH CSS
 //1.EXTERNAL
@@ -66,8 +67,9 @@ function App() {
 
   return (
     <>
-      <UpArrayComponent/>
-      {/* <ObjectComponent/>
+      <ArrayObjectComponent/>
+      {/* <UpArrayComponent/>
+      <ObjectComponent/>
       <UpdaterComponent/>
       <ColorPicker/>
       <SecComponent/>
