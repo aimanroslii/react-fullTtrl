@@ -13,6 +13,7 @@ import ObjectComponent from './ObjectComponent.jsx'
 import UpArrayComponent from './UpArrayComponent.jsx'
 import ArrayObjectComponent from './ArrayObjectComponent.jsx'
 import ToDoList from './ToDoList.jsx'
+import Effect from './Effect.jsx'
 
 //HOW TO STYLE REACT COMPONENTS WITH CSS
 //1.EXTERNAL
@@ -68,8 +69,9 @@ function App() {
 
   return (
     <>
-      <ToDoList/>
-      {/* <ArrayObjectComponent/>
+      <Effect/>
+      {/* <ToDoList/>
+      <ArrayObjectComponent/>
       <UpArrayComponent/>
       <ObjectComponent/>
       <UpdaterComponent/>
