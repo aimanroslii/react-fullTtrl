@@ -14,6 +14,7 @@ import UpArrayComponent from './UpArrayComponent.jsx'
 import ArrayObjectComponent from './ArrayObjectComponent.jsx'
 import ToDoList from './ToDoList.jsx'
 import Effect from './Effect.jsx'
+import DigitalClock from './DigitalClock.jsx'
 
 //HOW TO STYLE REACT COMPONENTS WITH CSS
 //1.EXTERNAL
@@ -69,8 +70,9 @@ function App() {
 
   return (
     <>
-      <Effect/>
-      {/* <ToDoList/>
+      <DigitalClock/>
+      {/* <Effect/>
+      <ToDoList/>
       <ArrayObjectComponent/>
       <UpArrayComponent/>
       <ObjectComponent/>
