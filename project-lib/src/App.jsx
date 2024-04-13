@@ -15,6 +15,7 @@ import ArrayObjectComponent from './ArrayObjectComponent.jsx'
 import ToDoList from './ToDoList.jsx'
 import Effect from './Effect.jsx'
 import DigitalClock from './DigitalClock.jsx'
+import ComponentA from './ComponentA.jsx'
 
 //HOW TO STYLE REACT COMPONENTS WITH CSS
 //1.EXTERNAL
@@ -67,11 +68,16 @@ function App() {
   //           ex. <input>, <textarea>, <select>, <radio>
   //           Triggers a function every time the value of the input changes
 
+  //useContext() = React Hook that allows you to share values 
+  //               between multiple levels of components
+  //               without passing props through each level
+
 
   return (
     <>
-      <DigitalClock/>
-      {/* <Effect/>
+      <ComponentA/>
+      {/* <DigitalClock/>
+      <Effect/>
       <ToDoList/>
       <ArrayObjectComponent/>
       <UpArrayComponent/>
