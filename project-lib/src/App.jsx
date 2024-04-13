@@ -16,6 +16,7 @@ import ToDoList from './ToDoList.jsx'
 import Effect from './Effect.jsx'
 import DigitalClock from './DigitalClock.jsx'
 import ComponentA from './ComponentA.jsx'
+import ComponentE from './ComponentE.jsx'
 
 //HOW TO STYLE REACT COMPONENTS WITH CSS
 //1.EXTERNAL
@@ -72,11 +73,19 @@ function App() {
   //               between multiple levels of components
   //               without passing props through each level
 
+  //useRef() = "use Reference" Does not cause re-renders when its value changes.
+  //            When you want a component to "remember" some information,
+  //            but you dont want that information to trigger new renders.  
+  //            1. Accessing/Interacting with DOM elements
+  //            2. Handling Focus, Animations, and Transitions
+  //            3. Managing Timers and Intervals.
+
 
   return (
     <>
-      <ComponentA/>
-      {/* <DigitalClock/>
+      <ComponentE/>
+      {/* <ComponentA/>
+      <DigitalClock/>
       <Effect/>
       <ToDoList/>
       <ArrayObjectComponent/>
