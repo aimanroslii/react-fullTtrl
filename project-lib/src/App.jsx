@@ -17,6 +17,7 @@ import Effect from './Effect.jsx'
 import DigitalClock from './DigitalClock.jsx'
 import ComponentA from './ComponentA.jsx'
 import ComponentE from './ComponentE.jsx'
+import Stopwatch from './Stopwatch.jsx'
 
 //HOW TO STYLE REACT COMPONENTS WITH CSS
 //1.EXTERNAL
@@ -83,8 +84,9 @@ function App() {
 
   return (
     <>
-      <ComponentE/>
-      {/* <ComponentA/>
+      <Stopwatch/>
+      {/* <ComponentE/>
+      <ComponentA/>
       <DigitalClock/>
       <Effect/>
       <ToDoList/>
